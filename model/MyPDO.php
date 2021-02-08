@@ -4,7 +4,8 @@
 class MyPDO extends PDO
 {
     // Attributs - Propriétés
-    private int $connect;
+//    private int $connect; // ORIGINAL
+    private $connect;
 
     // constructeur personnel
     public function __construct($dsn, $username = null, $password = null, $error = null)
